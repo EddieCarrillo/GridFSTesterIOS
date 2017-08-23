@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>GridFSTester.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1FDA4E451F4DE47B00A5BECD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1FDA4E591F4DE47D00A5BECD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1FDA4E641F4DE47D00A5BECD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
