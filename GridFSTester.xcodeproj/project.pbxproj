@@ -14,6 +14,10 @@
 		1FDA4E541F4DE47D00A5BECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA4E521F4DE47D00A5BECD /* LaunchScreen.storyboard */; };
 		1FDA4E5F1F4DE47D00A5BECD /* GridFSTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA4E5E1F4DE47D00A5BECD /* GridFSTesterTests.swift */; };
 		1FDA4E6A1F4DE47D00A5BECD /* GridFSTesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA4E691F4DE47D00A5BECD /* GridFSTesterUITests.swift */; };
+		1FDA4E781F4E347400A5BECD /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA4E771F4E347400A5BECD /* Media.swift */; };
+		30BBAB6440335461076F25AB /* Pods_GridFSTesterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EDF712604D8378B76F6966 /* Pods_GridFSTesterUITests.framework */; };
+		BDBCFA05211C4F594D3D3F2A /* Pods_GridFSTesterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41008923B415D642CD6CE128 /* Pods_GridFSTesterTests.framework */; };
+		ECB8EB890E8597EF4FB472E6 /* Pods_GridFSTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D128B2004F3C8392B46FC66E /* Pods_GridFSTester.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		187BEC4F777A322B9D2F1B01 /* Pods-GridFSTesterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridFSTesterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridFSTesterUITests/Pods-GridFSTesterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1FDA4E461F4DE47C00A5BECD /* GridFSTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridFSTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDA4E491F4DE47C00A5BECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FDA4E4B1F4DE47C00A5BECD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		1FDA4E651F4DE47D00A5BECD /* GridFSTesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridFSTesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDA4E691F4DE47D00A5BECD /* GridFSTesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridFSTesterUITests.swift; sourceTree = "<group>"; };
 		1FDA4E6B1F4DE47D00A5BECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FDA4E771F4E347400A5BECD /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		2143521490336F21A0EE9358 /* Pods-GridFSTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridFSTester.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridFSTester/Pods-GridFSTester.release.xcconfig"; sourceTree = "<group>"; };
+		37EDF712604D8378B76F6966 /* Pods_GridFSTesterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridFSTesterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41008923B415D642CD6CE128 /* Pods_GridFSTesterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridFSTesterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD466386B12B368F5480542 /* Pods-GridFSTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridFSTester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridFSTester/Pods-GridFSTester.debug.xcconfig"; sourceTree = "<group>"; };
+		D128B2004F3C8392B46FC66E /* Pods_GridFSTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridFSTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0859997DD6BD909E504179D /* Pods-GridFSTesterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridFSTesterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridFSTesterTests/Pods-GridFSTesterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5958ED09AAB01A3745787A7 /* Pods-GridFSTesterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridFSTesterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridFSTesterUITests/Pods-GridFSTesterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEBB47EB7BC341A5213B03A5 /* Pods-GridFSTesterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridFSTesterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridFSTesterTests/Pods-GridFSTesterTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB8EB890E8597EF4FB472E6 /* Pods_GridFSTester.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBCFA05211C4F594D3D3F2A /* Pods_GridFSTesterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BBAB6440335461076F25AB /* Pods_GridFSTesterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				1FDA4E5D1F4DE47D00A5BECD /* GridFSTesterTests */,
 				1FDA4E681F4DE47D00A5BECD /* GridFSTesterUITests */,
 				1FDA4E471F4DE47C00A5BECD /* Products */,
+				E22B6F95CF6E4323AA83DE8A /* Pods */,
+				3A57DCD53A65000AAE28579E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +118,7 @@
 			children = (
 				1FDA4E491F4DE47C00A5BECD /* AppDelegate.swift */,
 				1FDA4E4B1F4DE47C00A5BECD /* ViewController.swift */,
+				1FDA4E771F4E347400A5BECD /* Media.swift */,
 				1FDA4E4D1F4DE47D00A5BECD /* Main.storyboard */,
 				1FDA4E501F4DE47D00A5BECD /* Assets.xcassets */,
 				1FDA4E521F4DE47D00A5BECD /* LaunchScreen.storyboard */,
@@ -125,6 +145,29 @@
 			path = GridFSTesterUITests;
 			sourceTree = "<group>";
 		};
+		3A57DCD53A65000AAE28579E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D128B2004F3C8392B46FC66E /* Pods_GridFSTester.framework */,
+				41008923B415D642CD6CE128 /* Pods_GridFSTesterTests.framework */,
+				37EDF712604D8378B76F6966 /* Pods_GridFSTesterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22B6F95CF6E4323AA83DE8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACD466386B12B368F5480542 /* Pods-GridFSTester.debug.xcconfig */,
+				2143521490336F21A0EE9358 /* Pods-GridFSTester.release.xcconfig */,
+				F0859997DD6BD909E504179D /* Pods-GridFSTesterTests.debug.xcconfig */,
+				FEBB47EB7BC341A5213B03A5 /* Pods-GridFSTesterTests.release.xcconfig */,
+				F5958ED09AAB01A3745787A7 /* Pods-GridFSTesterUITests.debug.xcconfig */,
+				187BEC4F777A322B9D2F1B01 /* Pods-GridFSTesterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FDA4E6E1F4DE47D00A5BECD /* Build configuration list for PBXNativeTarget "GridFSTester" */;
 			buildPhases = (
+				353AC427627B4F82297635C9 /* [CP] Check Pods Manifest.lock */,
 				1FDA4E421F4DE47B00A5BECD /* Sources */,
 				1FDA4E431F4DE47B00A5BECD /* Frameworks */,
 				1FDA4E441F4DE47B00A5BECD /* Resources */,
+				B6ADD03805D70E36AE8A6F61 /* [CP] Embed Pods Frameworks */,
+				25D46F085EF855326DA219B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FDA4E711F4DE47D00A5BECD /* Build configuration list for PBXNativeTarget "GridFSTesterTests" */;
 			buildPhases = (
+				A7DFBE96F041CA7E49CA50EF /* [CP] Check Pods Manifest.lock */,
 				1FDA4E561F4DE47D00A5BECD /* Sources */,
 				1FDA4E571F4DE47D00A5BECD /* Frameworks */,
 				1FDA4E581F4DE47D00A5BECD /* Resources */,
+				71A04B0CF990121E4F5AFFD4 /* [CP] Embed Pods Frameworks */,
+				4C281E6892CF444B92D4DA66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FDA4E741F4DE47D00A5BECD /* Build configuration list for PBXNativeTarget "GridFSTesterUITests" */;
 			buildPhases = (
+				BE994123022745C90EA2BFDD /* [CP] Check Pods Manifest.lock */,
 				1FDA4E611F4DE47D00A5BECD /* Sources */,
 				1FDA4E621F4DE47D00A5BECD /* Frameworks */,
 				1FDA4E631F4DE47D00A5BECD /* Resources */,
+				7CDC47075D378E1843B34513 /* [CP] Embed Pods Frameworks */,
+				062BAB2F763CCCF87AE859AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +306,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		062BAB2F763CCCF87AE859AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridFSTesterUITests/Pods-GridFSTesterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25D46F085EF855326DA219B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridFSTester/Pods-GridFSTester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		353AC427627B4F82297635C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C281E6892CF444B92D4DA66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridFSTesterTests/Pods-GridFSTesterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71A04B0CF990121E4F5AFFD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridFSTesterTests/Pods-GridFSTesterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CDC47075D378E1843B34513 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridFSTesterUITests/Pods-GridFSTesterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7DFBE96F041CA7E49CA50EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6ADD03805D70E36AE8A6F61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridFSTester/Pods-GridFSTester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE994123022745C90EA2BFDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FDA4E421F4DE47B00A5BECD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +451,7 @@
 			files = (
 				1FDA4E4C1F4DE47C00A5BECD /* ViewController.swift in Sources */,
 				1FDA4E4A1F4DE47C00A5BECD /* AppDelegate.swift in Sources */,
+				1FDA4E781F4E347400A5BECD /* Media.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +599,7 @@
 		};
 		1FDA4E6F1F4DE47D00A5BECD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD466386B12B368F5480542 /* Pods-GridFSTester.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GridFSTester/Info.plist;
@@ -420,6 +612,7 @@
 		};
 		1FDA4E701F4DE47D00A5BECD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2143521490336F21A0EE9358 /* Pods-GridFSTester.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GridFSTester/Info.plist;
@@ -432,6 +625,7 @@
 		};
 		1FDA4E721F4DE47D00A5BECD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0859997DD6BD909E504179D /* Pods-GridFSTesterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +640,7 @@
 		};
 		1FDA4E731F4DE47D00A5BECD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBB47EB7BC341A5213B03A5 /* Pods-GridFSTesterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +655,7 @@
 		};
 		1FDA4E751F4DE47D00A5BECD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5958ED09AAB01A3745787A7 /* Pods-GridFSTesterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GridFSTesterUITests/Info.plist;
@@ -473,6 +669,7 @@
 		};
 		1FDA4E761F4DE47D00A5BECD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187BEC4F777A322B9D2F1B01 /* Pods-GridFSTesterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GridFSTesterUITests/Info.plist;
@@ -503,6 +700,7 @@
 				1FDA4E701F4DE47D00A5BECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FDA4E711F4DE47D00A5BECD /* Build configuration list for PBXNativeTarget "GridFSTesterTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +709,7 @@
 				1FDA4E731F4DE47D00A5BECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FDA4E741F4DE47D00A5BECD /* Build configuration list for PBXNativeTarget "GridFSTesterUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +718,7 @@
 				1FDA4E761F4DE47D00A5BECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
